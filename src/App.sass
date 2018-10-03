@@ -1,0 +1,28 @@
+@import '~bootstrap/dist/css/bootstrap.min.css'
+
+html,
+  overflow: hidden
+
+body
+  overflow: auto
+  height: 100vh
+
+#app
+  max-width: 500px
+  height: 100%
+  margin-left: auto
+  margin-right: auto
+  display: grid
+  align-items: center
+
+#todo-list 
+  max-height: 550px
+  overflow: auto
+
+.edit-mode .card:not(.editing)
+  opacity: .4
+  pointer-events: none
+
+.editing
+  button 
+    display: none
