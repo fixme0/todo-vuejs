@@ -1,4 +1,4 @@
-# itua_vue
+# todo
 
 ## Project setup
 ```
